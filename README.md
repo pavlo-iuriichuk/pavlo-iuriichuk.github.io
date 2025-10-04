@@ -11,7 +11,13 @@ I'm always happy to connect with fellow professionals and tech enthusiasts. Feel
 - **Instagram** [instagram.com/pavlo_yuriychuk](https://www.instagram.com/pavlo_yuriychuk)
 - **Email**: [Gmail](mailto:pavlo.iuriichuk@gmail.com)
 
-My interests outside of work:
+### About myself
+
+- Alumni of [National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”](https://kpi.ua/en), [Faculty of Applied Mathematics](https://pma.fpm.kpi.ua/en)
+- Volunteered for [UAWS](https://uaws.org/) from 2018 to 2024
+
+### My interests outside of work
+
 - **Book club** [Lovage book club @ Seattle area](https://www.facebook.com/groups/lovagebookclub)
 - **Poetry and essays** [FB Page](https://www.facebook.com/oliteraturne)
 
