@@ -9,7 +9,7 @@ I'm always happy to connect with fellow professionals and tech enthusiasts. Feel
 - **LinkedIn**: [linkedin.com/in/pavloiuriichuk](https://www.linkedin.com/in/pavloiuriichuk/)
 - **Facebook**: [facebook.com/pavlo.yuriychuk](https://www.facebook.com/pavlo.yuriychuk)
 - **Instagram** [instagram.com/pavlo_yuriychuk](https://www.instagram.com/pavlo_yuriychuk)
-- **Email**: [Gmail](mailto://pavlo.iuriichuk@gmail.com)
+- **Email**: [Gmail](mailto:pavlo.iuriichuk@gmail.com)
 
 My interests outside of work:
 - **Book club** [Lovage book club @ Seattle area](https://www.facebook.com/groups/lovagebookclub)
