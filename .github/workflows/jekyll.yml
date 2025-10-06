@@ -10,7 +10,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x' # Specify your Jekyll's Ruby version
+          ruby-version: '3.4-asan' # Specify your Jekyll's Ruby version
           bundler-cache: true # Installs gems with Bundler
       - name: Expose Secrets as Environment Variables
         run: |
