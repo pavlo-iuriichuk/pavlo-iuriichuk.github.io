@@ -13,9 +13,9 @@ jobs:
           ruby-version: '3.4-asan' # Specify your Jekyll's Ruby version
           bundler-cache: true # Installs gems with Bundler
       - name: Install dependencies
-        run: bundle install
+        run: bundle install --gemfile=.bundle/Gemfile
       - name: Expose Secrets as Environment Variables
         run: |
           echo "GTM_CONTAINER_ID=${{ secrets.GTM_CONTAINER_ID }}" >> $GITHUB_ENV
       - name: Build Jekyll site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --gemfile=.bundle/Gemfile
