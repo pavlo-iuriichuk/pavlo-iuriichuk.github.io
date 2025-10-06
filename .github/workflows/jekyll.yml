@@ -18,4 +18,4 @@ jobs:
         run: |
           echo "GTM_CONTAINER_ID=${{ secrets.GTM_CONTAINER_ID }}" >> $GITHUB_ENV
       - name: Build Jekyll site
-        run: bundle exec jekyll build --gemfile=.bundle/Gemfile
+        run: bundle exec jekyll build
