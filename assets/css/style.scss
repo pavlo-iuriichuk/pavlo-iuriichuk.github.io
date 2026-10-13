@@ -1,0 +1,84 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Pastel autumn palette
+$cream:       #fbf6ec; // page background
+$lilac:       #d9c9ec; // header background
+$lilac-deep:  #6e5590; // links
+$plum:        #3e3150; // header text
+$butter:      #f3dfa2; // highlights
+$rust:        #a4552f; // headings
+$ochre:       #c9a45c; // accents
+$ink:         #3f3a36; // body text
+$sand:        #efe6d6; // code, table stripes
+
+body {
+  background-color: $cream;
+  color: $ink;
+}
+
+.page-header {
+  background-color: $lilac;
+  background-image: none;
+  color: $plum;
+  border-bottom: 4px solid $ochre;
+}
+
+.project-name { color: $plum; }
+.project-tagline { color: $plum; opacity: 0.8; }
+
+.btn {
+  color: $plum;
+  background-color: rgba(255, 255, 255, 0.45);
+  border-color: rgba($plum, 0.25);
+
+  &:hover {
+    color: $plum;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-color: rgba($plum, 0.4);
+  }
+}
+
+#skip-to-content { background-color: $plum; }
+
+.main-content {
+  color: $ink;
+
+  h1, h2, h3, h4, h5, h6 { color: $rust; }
+
+  h3 {
+    display: inline-block;
+    padding: 0 0.3em;
+    background: linear-gradient(transparent 60%, $butter 60%);
+  }
+
+  a { color: $lilac-deep; }
+  a:hover { color: $rust; }
+
+  strong { color: $plum; }
+
+  code { background-color: $sand; color: $ink; }
+
+  pre {
+    background-color: $sand;
+    border-color: darken($sand, 8%);
+  }
+
+  blockquote {
+    color: lighten($ink, 20%);
+    border-left-color: $ochre;
+  }
+
+  table tr:nth-child(even) { background-color: $sand; }
+  table th, table td { border-color: darken($sand, 8%); }
+
+  hr { background-color: $sand; }
+
+  .site-footer {
+    border-top-color: $sand;
+  }
+
+  .site-footer-credits { color: lighten($ink, 30%); }
+}
